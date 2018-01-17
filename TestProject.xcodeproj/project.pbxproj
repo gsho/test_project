@@ -14,6 +14,8 @@
 		5F206E07200F2512004FE4FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F206E05200F2512004FE4FC /* LaunchScreen.storyboard */; };
 		5F206E12200F2512004FE4FC /* TestProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F206E11200F2512004FE4FC /* TestProjectTests.swift */; };
 		5F206E1D200F2512004FE4FC /* TestProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F206E1C200F2512004FE4FC /* TestProjectUITests.swift */; };
+		5F206E2B200F2529004FE4FC /* SomeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F206E2A200F2529004FE4FC /* SomeModule.swift */; };
+		5F206E2C200F2678004FE4FC /* SomeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F206E2A200F2529004FE4FC /* SomeModule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,7 @@
 		5F206E18200F2512004FE4FC /* TestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F206E1C200F2512004FE4FC /* TestProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProjectUITests.swift; sourceTree = "<group>"; };
 		5F206E1E200F2512004FE4FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F206E2A200F2529004FE4FC /* SomeModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomeModule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,7 @@
 			children = (
 				5F206DFC200F2512004FE4FC /* AppDelegate.swift */,
 				5F206DFE200F2512004FE4FC /* ViewController.swift */,
+				5F206E2A200F2529004FE4FC /* SomeModule.swift */,
 				5F206E00200F2512004FE4FC /* Main.storyboard */,
 				5F206E03200F2512004FE4FC /* Assets.xcassets */,
 				5F206E05200F2512004FE4FC /* LaunchScreen.storyboard */,
@@ -259,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F206E2B200F2529004FE4FC /* SomeModule.swift in Sources */,
 				5F206DFF200F2512004FE4FC /* ViewController.swift in Sources */,
 				5F206DFD200F2512004FE4FC /* AppDelegate.swift in Sources */,
 			);
@@ -269,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F206E12200F2512004FE4FC /* TestProjectTests.swift in Sources */,
+				5F206E2C200F2678004FE4FC /* SomeModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,7 +12,19 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let module = SomeModule()
+        
+        print("name: ", module.name)
+        module.name = "ABC"
+        print("name: ", module.name)
+        
+        print("length: ", module.length)
+        module.length = 11
+        print("length: ", module.length)
+        
+        print("success: ", module.success)
+        print("random: ", module.random)
     }
 
     override func didReceiveMemoryWarning() {
